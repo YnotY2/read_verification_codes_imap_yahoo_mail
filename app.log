@@ -1,0 +1,14 @@
+
+2024-06-27 01:33:35,567 - INFO - [96mStarting[0m[93m main.py[0m [96m python3 script ...[0m
+2024-06-27 01:33:35,567 - INFO - [96mCalling[0m[93m fetch_recent_email.py[0m [96mservice -function[0m
+2024-06-27 01:51:28,974 - INFO - [96mStarting[0m[93m main.py[0m [96m python3 script ...[0m
+2024-06-27 01:51:28,974 - INFO - [96mCalling[0m[93m connect_to_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-27 01:51:28,974 - INFO - [96mAttempting to connect to the yahoo-mail IMAP server.[0m
+2024-06-27 01:51:29,997 - INFO - [92mSuccessfully connected to the IMAP server.[0m
+2024-06-27 01:51:29,998 - INFO - [94mConnected to the following yahoo-mail account inbox:[0m
+2024-06-27 01:51:29,998 - INFO - [95m kumain_ynoty2_verify_codes@yahoo.com[0m
+2024-06-27 01:51:29,998 - INFO - [96mReturning the mail-object for future usage.[0m
+2024-06-27 01:51:29,998 - INFO - [96mCalling[0m[93m fetch_recent_email.py[0m [96mservice -function[0m
+2024-06-27 01:51:31,534 - INFO - [96mCalling[0m[93m disconnect_from_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-27 01:51:31,534 - INFO - [96mAttempting to disconnect from the yahoo-mail IMAP server.[0m
+2024-06-27 01:51:31,606 - INFO - [92mSuccessfully disconnected from the IMAP server.[0m

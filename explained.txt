@@ -1,0 +1,24 @@
+# Fetch verification emails from mail inbox using IMAP protocol.
+
+Okay so basically this code is a template that can be modified to easily
+read email from within the yahoo mail account specified using very simply
+credentials:
+-app password yahoo
+-yahoo mail account name
+
+This is entirely free to use!
+
+I will check for the email containing the verification code from the
+"inbox" and from the "Spam" folders.
+
+I can then check if the body of either most recent emails A or B contains
+the text aka re pattern I am looking for indicating the promotion company
+/service I am trying to harvest.
+
+Then I can extract the verification code from that email using another
+custom re pattern.
+
+
+So basically for each new service I only need to modify the re pattern
+for the mail it's self. This way I can use this code across multiple
+services I want to extract the verification code for :D
