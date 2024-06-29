@@ -65,3 +65,58 @@ Here's a basic outline of what the code does:
 ```sh
 https://github.com/YnotY2/read_verification_codes_imap_yahoo_mail.git
 ```
+
+
+
+
+
+# Update code usage for a different service:
+
+## Update the credentials if needed 
+
+```sh
+./read_verification_codes_imap_yahoo_mail/config/settings.py
+```
+
+- Content within the file: 
+```sh
+import os
+
+# Yahoo mail credentials [used for reading email from acc trough imap protocol]
+# Define your email and app password
+EMAIL = os.getenv("EMAIL", "YOUR_YAHOO_EMAIL_ADDRESS_HERE@yahoo.com")
+APP_PASSWORD = os.getenv("APP_PASSWORD", "YOUR_APP_PASSWORD_HERE")
+
+# Yahoo IMAP server credentials
+# Define the Yahoo IMAP server and port
+IMAP_SERVER = os.getenv("IMAP_SERVER", "imap.mail.yahoo.com")
+IMAP_PORT = os.getenv("IMAP_PORT", 993)
+
+# I am using addyio to read verification codes fowarded to above yahoo account :D
+# Addyio email API
+ADDYIO_API_TOKEN = os.getenv("ADDYIO_API_TOKEN", "YOUR_ADDYIO_API_KEY_HERE")
+```
+
+## Modify the following python services
+
+```ssh
+./read_verification_codes_imap_yahoo_mail/services_python
+```
+
+```sh
+extract_all_emails_with_specified_subject.py
+```
+- Here you only need to modify the actually subject value's passed to the function, we are searching for. No code modification needed. 
+
+```sh
+extract_verification_code_from_matched_email.py
+```
+- Here you need to modify the actual logic of the code to correctly parse the content tag of the email. And extract the verification code using custom logic. 
+
+### Read the main.py code file for the actuall logic. 
+
+```sh
+./read_verification_codes_imap_yahoo_mail/main.py
+```
+- It is important for you to actually fully understand the logic of the code it's self. You can easily do this by reading the main.py python file!
+
