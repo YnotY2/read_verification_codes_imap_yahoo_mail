@@ -1,4 +1,4 @@
-# Fetch Verification Emails from yahoo Mail Inbox using IMAP Protocol
+# Fetch verification Codes within email('s) from incoming yahoo emails using IMAP Protocol
 
 This code is a template designed to easily read incoming emails from a specified Yahoo Mail account using simple credentials:
 
@@ -10,14 +10,14 @@ I am using addyio emails to fowared all incoming email to the specified yahoo ma
 
 ## This approach is entirely free 
 
-- Yahoo Mail: 
-+ free till 1TB storage!
-* I can delete all emails from all inboxes every-day at 5:00 circumventing ever hitting limit.
+**Yahoo Mail**: 
+- free till 1TB storage!
+	+ I can delete all emails from all inboxes every-day at 5:00 circumventing ever hitting limit.
 
-- Addyio email
-+ free till hourly rate limit 
-+ free till account get's banned for abusing promo-code harvestin against terms of service 
-* I can circumvent either limits by having a bunch of unique addy.io subscriptions with there own unique API-keys I can switch trough.
+**Addyio email**
+- free till hourly rate limit 
+- free till account get's banned for abusing promo-code harvestin against terms of service 
+	+ I can circumvent either limits by having a bunch of unique addy.io subscriptions with there own unique API-keys I can switch trough.
 
 
 ## Features
