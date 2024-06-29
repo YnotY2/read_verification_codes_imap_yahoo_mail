@@ -17,13 +17,8 @@ def connect_to_yahoo_imap_server():
         logger.info(f"{Colors.GREEN}Successfully connected to the IMAP server.{Colors.END}")
         logger.info(f"{Colors.BLUE}Connected to the following yahoo-mail account inbox:{Colors.END}")
         logger.info(f"{Colors.MAGENTA} {EMAIL}{Colors.END}")
-        print("")
-        status, folder_list = mail.list()
-        if status == 'OK':
-            for folder_info in folder_list:
-                print(folder_info)
-
         logger.info(f"{Colors.CYAN}Returning the mail-object for future usage.{Colors.END}")
+        print("")
         return mail
 
     except Exception as e:

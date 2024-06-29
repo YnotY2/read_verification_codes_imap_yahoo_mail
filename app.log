@@ -1392,3 +1392,433 @@
 2024-06-28 05:13:46,809 - INFO - [96mCalling[0m[93m disconnect_from_yahoo_imap_server.py[0m [96mservice -function[0m
 2024-06-28 05:13:46,809 - INFO - [96mAttempting to disconnect from the yahoo-mail IMAP server.[0m
 2024-06-28 05:13:46,885 - INFO - [92mSuccessfully disconnected from the IMAP server.[0m
+2024-06-29 05:30:16,465 - INFO - [96mStarting[0m[93m main.py[0m [96m python3 script ...[0m
+2024-06-29 05:30:16,465 - INFO - [96mCalling[0m[93m connect_to_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-29 05:30:16,465 - INFO - [96mAttempting to connect to the yahoo-mail IMAP server.[0m
+2024-06-29 05:30:17,468 - INFO - [92mSuccessfully connected to the IMAP server.[0m
+2024-06-29 05:30:17,468 - INFO - [94mConnected to the following yahoo-mail account inbox:[0m
+2024-06-29 05:30:17,469 - INFO - [95m kumain_ynoty2_verify_codes@yahoo.com[0m
+2024-06-29 05:30:18,083 - INFO - [96mReturning the mail-object for future usage.[0m
+2024-06-29 05:30:18,083 - INFO - [96mCalling[0m[93m fetch_recent_email_from_folder.py[0m [96mservice -function[0m
+2024-06-29 05:30:18,083 - INFO - [96mAttempting to select the folder: [0m[94minbox[0m
+2024-06-29 05:30:19,107 - INFO - [92mSuccessfully selected the inbox folder.[0m
+2024-06-29 05:30:19,107 - INFO - [96mAttempting to fetching the last [0m[95m20[0m[96m emails from the inbox folder.[0m
+2024-06-29 05:30:19,107 - INFO - [96mCurrently fetching recent email number:[0m[95m20[0m 
+2024-06-29 05:30:19,722 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:30:19,722 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <z6g92m0w+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:30:19,722 - INFO - [96mEmail Date: [0m[94mThu, 27 Jun 2024 00:58:17 +0000[0m
+2024-06-29 05:30:19,722 - INFO - [96mCurrently fetching recent email number:[0m[95m19[0m 
+2024-06-29 05:30:20,234 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:30:20,234 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <rf510cvd+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:30:20,234 - INFO - [96mEmail Date: [0m[94mThu, 27 Jun 2024 01:01:18 +0000[0m
+2024-06-29 05:30:20,234 - INFO - [96mCurrently fetching recent email number:[0m[95m18[0m 
+2024-06-29 05:30:20,849 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber Eats![0m
+2024-06-29 05:30:20,849 - INFO - [96mEmail From: [0m[94m"Uber Eats 'ubereats at uber.com'"
+ <rf510cvd+ubereats=uber.com@anonaddy.me>[0m
+2024-06-29 05:30:20,849 - INFO - [96mEmail Date: [0m[94mThu, 27 Jun 2024 14:20:32 +0000[0m
+2024-06-29 05:30:20,849 - INFO - [96mCurrently fetching recent email number:[0m[95m17[0m 
+2024-06-29 05:30:21,341 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber Eats![0m
+2024-06-29 05:30:21,341 - INFO - [96mEmail From: [0m[94m"Uber Eats 'ubereats at uber.com'"
+ <z6g92m0w+ubereats=uber.com@anonaddy.me>[0m
+2024-06-29 05:30:21,345 - INFO - [96mEmail Date: [0m[94mThu, 27 Jun 2024 14:26:45 +0000[0m
+2024-06-29 05:30:21,345 - INFO - [96mCurrently fetching recent email number:[0m[95m16[0m 
+2024-06-29 05:30:21,872 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:30:21,872 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <rqtzcc2d+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:30:21,872 - INFO - [96mEmail Date: [0m[94mThu, 27 Jun 2024 21:10:45 +0000[0m
+2024-06-29 05:30:21,872 - INFO - [96mCurrently fetching recent email number:[0m[95m15[0m 
+2024-06-29 05:30:22,384 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:30:22,384 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <2x775u7r+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:30:22,384 - INFO - [96mEmail Date: [0m[94mThu, 27 Jun 2024 21:14:20 +0000[0m
+2024-06-29 05:30:22,384 - INFO - [96mCurrently fetching recent email number:[0m[95m14[0m 
+2024-06-29 05:30:22,896 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:30:22,896 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <13c5h1ax+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:30:22,896 - INFO - [96mEmail Date: [0m[94mThu, 27 Jun 2024 21:19:28 +0000[0m
+2024-06-29 05:30:22,896 - INFO - [96mCurrently fetching recent email number:[0m[95m13[0m 
+2024-06-29 05:30:23,510 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:30:23,511 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <qwf3axt4+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:30:23,511 - INFO - [96mEmail Date: [0m[94mThu, 27 Jun 2024 21:21:02 +0000[0m
+2024-06-29 05:30:23,511 - INFO - [96mCurrently fetching recent email number:[0m[95m12[0m 
+2024-06-29 05:30:24,124 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:30:24,124 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <ze8j6fgu+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:30:24,124 - INFO - [96mEmail Date: [0m[94mThu, 27 Jun 2024 21:42:01 +0000[0m
+2024-06-29 05:30:24,125 - INFO - [96mCurrently fetching recent email number:[0m[95m11[0m 
+2024-06-29 05:30:24,740 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:30:24,740 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <ze8j6fgu+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:30:24,740 - INFO - [96mEmail Date: [0m[94mThu, 27 Jun 2024 21:43:03 +0000[0m
+2024-06-29 05:30:24,740 - INFO - [96mCurrently fetching recent email number:[0m[95m10[0m 
+2024-06-29 05:30:25,251 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:30:25,251 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <rg0z23it+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:30:25,251 - INFO - [96mEmail Date: [0m[94mFri, 28 Jun 2024 02:40:02 +0000[0m
+2024-06-29 05:30:25,251 - INFO - [96mCurrently fetching recent email number:[0m[95m9[0m 
+2024-06-29 05:30:25,905 - INFO - [96mEmail Subject: [0m[94mVerify your Uber account email address[0m
+2024-06-29 05:30:25,906 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <jp177z6p+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:30:25,906 - INFO - [96mEmail Date: [0m[94mFri, 28 Jun 2024 21:20:40 +0000[0m
+2024-06-29 05:30:25,906 - INFO - [96mCurrently fetching recent email number:[0m[95m8[0m 
+2024-06-29 05:30:26,390 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:30:26,390 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <olfvtoge+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:30:26,394 - INFO - [96mEmail Date: [0m[94mFri, 28 Jun 2024 21:25:33 +0000[0m
+2024-06-29 05:30:26,394 - INFO - [96mCurrently fetching recent email number:[0m[95m7[0m 
+2024-06-29 05:30:26,890 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:30:26,890 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <07t5u0fw+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:30:26,890 - INFO - [96mEmail Date: [0m[94mFri, 28 Jun 2024 21:32:36 +0000[0m
+2024-06-29 05:30:26,890 - INFO - [96mCurrently fetching recent email number:[0m[95m6[0m 
+2024-06-29 05:30:27,504 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:30:27,504 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <x4wbfn6g+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:30:27,504 - INFO - [96mEmail Date: [0m[94mFri, 28 Jun 2024 21:44:18 +0000[0m
+2024-06-29 05:30:27,505 - INFO - [96mCurrently fetching recent email number:[0m[95m5[0m 
+2024-06-29 05:30:28,016 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:30:28,016 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <m89rt4u2+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:30:28,016 - INFO - [96mEmail Date: [0m[94mFri, 28 Jun 2024 21:45:45 +0000[0m
+2024-06-29 05:30:28,016 - INFO - [96mCurrently fetching recent email number:[0m[95m4[0m 
+2024-06-29 05:30:28,528 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:30:28,528 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <8lel3x08+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:30:28,528 - INFO - [96mEmail Date: [0m[94mFri, 28 Jun 2024 22:33:19 +0000[0m
+2024-06-29 05:30:28,528 - INFO - [96mCurrently fetching recent email number:[0m[95m3[0m 
+2024-06-29 05:30:29,245 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:30:29,245 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <z2usjnqe+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:30:29,245 - INFO - [96mEmail Date: [0m[94mFri, 28 Jun 2024 22:38:15 +0000[0m
+2024-06-29 05:30:29,245 - INFO - [96mCurrently fetching recent email number:[0m[95m2[0m 
+2024-06-29 05:30:29,757 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:30:29,757 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <kv6n6dxg+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:30:29,757 - INFO - [96mEmail Date: [0m[94mSat, 29 Jun 2024 02:50:28 +0000[0m
+2024-06-29 05:30:29,757 - INFO - [96mCurrently fetching recent email number:[0m[95m1[0m 
+2024-06-29 05:30:30,279 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:30:30,279 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <cne7iddp+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:30:30,279 - INFO - [96mEmail Date: [0m[94mSat, 29 Jun 2024 03:04:51 +0000[0m
+2024-06-29 05:30:30,279 - INFO - [92mSuccessfully fetched all emails from folder inbox, and added data to dictionary.[0m
+2024-06-29 05:30:30,279 - INFO - [96mFollowing example data contained within dictionary:[0m
+2024-06-29 05:30:30,279 - INFO - [96mReturning dictionary variable.[0m
+2024-06-29 05:30:32,336 - INFO - [96mCalling[0m[93m extract_all_emails_with_specified_subject.py[0m [96mservice -function[0m
+2024-06-29 05:30:32,336 - INFO - [96mAttempting to extract all emails with specified subjects: [0m[94m['Welcome to Uber Eats!', 'Welcome to Uber'][0m
+2024-06-29 05:30:32,337 - INFO - [92mSuccessfully extracted all emails with specified subject '['Welcome to Uber Eats!', 'Welcome to Uber']' and added data to dictionary 'emails_specified_subject_data'.[0m
+2024-06-29 05:30:32,337 - INFO - [96mExample data contained within dictionary:[0m
+2024-06-29 05:30:32,337 - INFO - [94m{
+    'subject': 'Welcome to Uber',
+    'from': 'sender@example.com',
+    'date': 'Thu, 01 Jan 1970 00:00:00 +0000',
+    'content': 'Example content because actual content is way too long.'
+}
+[0m
+2024-06-29 05:30:32,337 - INFO - [96mReturning dictionary variable.[0m
+2024-06-29 05:30:32,342 - INFO - [96mCalling[0m[93m create_addyio_email_address.py[0m [96mservice -function[0m
+2024-06-29 05:30:32,342 - INFO - [96mAttempting to create unique new addy.io email address.[0m
+2024-06-29 05:30:32,342 - INFO - Sending request to addy.io-mail to create and fetch new alias
+2024-06-29 05:30:32,625 - INFO - Response status failed, with code 422
+2024-06-29 05:30:32,626 - INFO - Response content: {"message":"The selected domain is invalid. (and 1 more error)","errors":{"domain":["The selected domain is invalid."],"format":["The selected format is invalid."]}}
+2024-06-29 05:30:32,626 - INFO - [96mCalling[0m[93m disconnect_from_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-29 05:30:32,626 - INFO - [96mAttempting to disconnect from the yahoo-mail IMAP server.[0m
+2024-06-29 05:30:32,718 - INFO - [92mSuccessfully disconnected from the IMAP server.[0m
+2024-06-29 05:31:20,926 - INFO - [96mStarting[0m[93m main.py[0m [96m python3 script ...[0m
+2024-06-29 05:31:20,926 - INFO - [96mCalling[0m[93m connect_to_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-29 05:31:20,926 - INFO - [96mAttempting to connect to the yahoo-mail IMAP server.[0m
+2024-06-29 05:31:21,879 - INFO - [92mSuccessfully connected to the IMAP server.[0m
+2024-06-29 05:31:21,879 - INFO - [94mConnected to the following yahoo-mail account inbox:[0m
+2024-06-29 05:31:21,879 - INFO - [95m kumain_ynoty2_verify_codes@yahoo.com[0m
+2024-06-29 05:31:22,288 - INFO - [96mReturning the mail-object for future usage.[0m
+2024-06-29 05:31:22,288 - INFO - [96mCalling[0m[93m create_addyio_email_address.py[0m [96mservice -function[0m
+2024-06-29 05:31:22,288 - INFO - [96mAttempting to create unique new addy.io email address.[0m
+2024-06-29 05:31:22,289 - INFO - Sending request to addy.io-mail to create and fetch new alias
+2024-06-29 05:31:22,602 - INFO - Response status failed, with code 422
+2024-06-29 05:31:22,602 - INFO - Response content: {"message":"The selected domain is invalid. (and 1 more error)","errors":{"domain":["The selected domain is invalid."],"format":["The selected format is invalid."]}}
+2024-06-29 05:31:22,602 - INFO - [96mCalling[0m[93m disconnect_from_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-29 05:31:22,602 - INFO - [96mAttempting to disconnect from the yahoo-mail IMAP server.[0m
+2024-06-29 05:31:22,675 - INFO - [92mSuccessfully disconnected from the IMAP server.[0m
+2024-06-29 05:32:19,068 - INFO - [96mStarting[0m[93m main.py[0m [96m python3 script ...[0m
+2024-06-29 05:32:19,068 - INFO - [96mCalling[0m[93m connect_to_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-29 05:32:19,068 - INFO - [96mAttempting to connect to the yahoo-mail IMAP server.[0m
+2024-06-29 05:32:19,940 - INFO - [92mSuccessfully connected to the IMAP server.[0m
+2024-06-29 05:32:19,940 - INFO - [94mConnected to the following yahoo-mail account inbox:[0m
+2024-06-29 05:32:19,940 - INFO - [95m kumain_ynoty2_verify_codes@yahoo.com[0m
+2024-06-29 05:32:20,350 - INFO - [96mReturning the mail-object for future usage.[0m
+2024-06-29 05:32:20,350 - INFO - [96mCalling[0m[93m create_addyio_email_address.py[0m [96mservice -function[0m
+2024-06-29 05:32:20,350 - INFO - [96mAttempting to create unique new addy.io email address.[0m
+2024-06-29 05:32:20,350 - INFO - Sending request to addy.io-mail to create and fetch new alias
+2024-06-29 05:32:20,660 - INFO - Response status failed, with code 422
+2024-06-29 05:32:20,660 - INFO - Response content: {"message":"The selected format is invalid.","errors":{"format":["The selected format is invalid."]}}
+2024-06-29 05:32:20,660 - INFO - [96mCalling[0m[93m disconnect_from_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-29 05:32:20,660 - INFO - [96mAttempting to disconnect from the yahoo-mail IMAP server.[0m
+2024-06-29 05:32:20,730 - INFO - [92mSuccessfully disconnected from the IMAP server.[0m
+2024-06-29 05:32:36,523 - INFO - [96mStarting[0m[93m main.py[0m [96m python3 script ...[0m
+2024-06-29 05:32:36,523 - INFO - [96mCalling[0m[93m connect_to_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-29 05:32:36,523 - INFO - [96mAttempting to connect to the yahoo-mail IMAP server.[0m
+2024-06-29 05:32:37,553 - INFO - [92mSuccessfully connected to the IMAP server.[0m
+2024-06-29 05:32:37,553 - INFO - [94mConnected to the following yahoo-mail account inbox:[0m
+2024-06-29 05:32:37,554 - INFO - [95m kumain_ynoty2_verify_codes@yahoo.com[0m
+2024-06-29 05:32:37,962 - INFO - [96mReturning the mail-object for future usage.[0m
+2024-06-29 05:32:37,962 - INFO - [96mCalling[0m[93m create_addyio_email_address.py[0m [96mservice -function[0m
+2024-06-29 05:32:37,962 - INFO - [96mAttempting to create unique new addy.io email address.[0m
+2024-06-29 05:32:37,962 - INFO - Sending request to addy.io-mail to create and fetch new alias
+2024-06-29 05:32:38,271 - INFO - [92mSuccessful API call![0m
+2024-06-29 05:32:38,271 - INFO - [96mCreated alias-email:
+2024-06-29 05:32:38,271 - INFO - Alias local_part:[0m:     [93mwe2b0qnh[0m
+2024-06-29 05:32:38,271 - INFO - [96malias domain:          [0m[93manonaddy.me[0m
+2024-06-29 05:32:38,271 - INFO - [96mfull email:    [0m[93mwe2b0qnh@anonaddy.me[0m
+2024-06-29 05:32:38,272 - INFO - [96mCalling[0m[93m disconnect_from_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-29 05:32:38,272 - INFO - [96mAttempting to disconnect from the yahoo-mail IMAP server.[0m
+2024-06-29 05:32:38,342 - INFO - [92mSuccessfully disconnected from the IMAP server.[0m
+2024-06-29 05:42:40,247 - INFO - [96mStarting[0m[93m main.py[0m [96m python3 script ...[0m
+2024-06-29 05:42:40,247 - INFO - [96mCalling[0m[93m create_addyio_email_address.py[0m [96mservice -function[0m
+2024-06-29 05:42:40,247 - INFO - [96mAttempting to create unique new addy.io email address.[0m
+2024-06-29 05:42:40,247 - INFO - Sending request to addy.io-mail to create and fetch new alias
+2024-06-29 05:42:40,476 - INFO - [92mSuccessful API call![0m
+2024-06-29 05:42:40,476 - INFO - [96mCreated alias-email:
+2024-06-29 05:42:40,476 - INFO - Alias local_part:[0m:     [94mbflgulpv[0m
+2024-06-29 05:42:40,476 - INFO - [96malias domain:          [0m[94manonaddy.me[0m
+2024-06-29 05:42:40,476 - INFO - [96mfull email:    [0m[94mbflgulpv@anonaddy.me[0m
+2024-06-29 05:42:40,476 - INFO - [96munique ID:    [0m[94mf5a9ef82-7a02-4592-b5de-899b33a80908[0m
+2024-06-29 05:42:40,476 - INFO - [96mCalling[0m[93m connect_to_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-29 05:42:40,476 - INFO - [96mAttempting to connect to the yahoo-mail IMAP server.[0m
+2024-06-29 05:42:41,518 - INFO - [92mSuccessfully connected to the IMAP server.[0m
+2024-06-29 05:42:41,518 - INFO - [94mConnected to the following yahoo-mail account inbox:[0m
+2024-06-29 05:42:41,519 - INFO - [95m kumain_ynoty2_verify_codes@yahoo.com[0m
+2024-06-29 05:42:41,928 - INFO - [96mReturning the mail-object for future usage.[0m
+2024-06-29 05:42:41,928 - INFO - [96mCalling[0m[93m delete_addyio_email_address.py[0m [96mservice -function[0m
+2024-06-29 05:42:41,928 - INFO - [96mAttempting to delete unique utilised addy email address.[0m
+2024-06-29 05:42:41,928 - INFO - [96mSending request to addy.io-mail to delete specified alias.[0m
+2024-06-29 05:42:41,928 - INFO - [96mAlias:[0m[94mbflgulpv@anonaddy.me[0m
+2024-06-29 05:42:42,236 - INFO - [92mSuccessful API call![0m
+2024-06-29 05:42:42,236 - INFO - [92mSuccessful deleted alias bflgulpv@anonaddy.me.[0m
+2024-06-29 05:42:42,236 - INFO - [96mCalling[0m[93m disconnect_from_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-29 05:42:42,236 - INFO - [96mAttempting to disconnect from the yahoo-mail IMAP server.[0m
+2024-06-29 05:42:42,311 - INFO - [92mSuccessfully disconnected from the IMAP server.[0m
+2024-06-29 05:44:07,617 - INFO - [96mStarting[0m[93m main.py[0m [96m python3 script ...[0m
+2024-06-29 05:44:07,617 - INFO - [96mCalling[0m[93m create_addyio_email_address.py[0m [96mservice -function[0m
+2024-06-29 05:44:07,617 - INFO - [96mAttempting to create unique new addy.io email address.[0m
+2024-06-29 05:44:07,617 - INFO - Sending request to addy.io-mail to create and fetch new alias
+2024-06-29 05:44:07,846 - INFO - [92mSuccessful API call![0m
+2024-06-29 05:44:07,846 - INFO - [96mCreated alias-email:
+2024-06-29 05:44:07,846 - INFO - Alias local_part:[0m:     [94mlfreztlo[0m
+2024-06-29 05:44:07,847 - INFO - [96malias domain:          [0m[94manonaddy.me[0m
+2024-06-29 05:44:07,847 - INFO - [96mfull email:    [0m[94mlfreztlo@anonaddy.me[0m
+2024-06-29 05:44:07,847 - INFO - [96munique ID:    [0m[94me84a7973-b7ff-46cc-b96c-7c7daba2cc9e[0m
+2024-06-29 05:44:07,847 - INFO - [96mCalling[0m[93m connect_to_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-29 05:44:07,847 - INFO - [96mAttempting to connect to the yahoo-mail IMAP server.[0m
+2024-06-29 05:44:08,866 - INFO - [92mSuccessfully connected to the IMAP server.[0m
+2024-06-29 05:44:08,867 - INFO - [94mConnected to the following yahoo-mail account inbox:[0m
+2024-06-29 05:44:08,867 - INFO - [95m kumain_ynoty2_verify_codes@yahoo.com[0m
+2024-06-29 05:44:09,276 - INFO - [96mReturning the mail-object for future usage.[0m
+2024-06-29 05:44:09,276 - INFO - [96mCalling[0m[93m delete_addyio_email_address.py[0m [96mservice -function[0m
+2024-06-29 05:44:09,276 - INFO - [96mCalling[0m[93m disconnect_from_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-29 05:44:09,276 - INFO - [96mAttempting to disconnect from the yahoo-mail IMAP server.[0m
+2024-06-29 05:44:09,348 - INFO - [92mSuccessfully disconnected from the IMAP server.[0m
+2024-06-29 05:44:59,205 - INFO - [96mStarting[0m[93m main.py[0m [96m python3 script ...[0m
+2024-06-29 05:44:59,205 - INFO - [96mCalling[0m[93m create_addyio_email_address.py[0m [96mservice -function[0m
+2024-06-29 05:44:59,205 - INFO - [96mAttempting to create unique new addy.io email address.[0m
+2024-06-29 05:44:59,205 - INFO - Sending request to addy.io-mail to create and fetch new alias
+2024-06-29 05:44:59,432 - INFO - [92mSuccessful API call![0m
+2024-06-29 05:44:59,432 - INFO - [96mCreated alias-email:
+2024-06-29 05:44:59,432 - INFO - Alias local_part:[0m:     [94m44kze6uk[0m
+2024-06-29 05:44:59,432 - INFO - [96malias domain:          [0m[94manonaddy.me[0m
+2024-06-29 05:44:59,432 - INFO - [96mfull email:    [0m[94m44kze6uk@anonaddy.me[0m
+2024-06-29 05:44:59,432 - INFO - [96munique ID:    [0m[94me874f468-cf7c-455f-a0ef-77e163a69f23[0m
+2024-06-29 05:44:59,432 - INFO - [96mCalling[0m[93m connect_to_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-29 05:44:59,432 - INFO - [96mAttempting to connect to the yahoo-mail IMAP server.[0m
+2024-06-29 05:45:00,477 - INFO - [92mSuccessfully connected to the IMAP server.[0m
+2024-06-29 05:45:00,477 - INFO - [94mConnected to the following yahoo-mail account inbox:[0m
+2024-06-29 05:45:00,477 - INFO - [95m kumain_ynoty2_verify_codes@yahoo.com[0m
+2024-06-29 05:45:00,887 - INFO - [96mReturning the mail-object for future usage.[0m
+2024-06-29 05:45:00,887 - INFO - [96mCalling[0m[93m delete_addyio_email_address.py[0m [96mservice -function[0m
+2024-06-29 05:45:00,887 - INFO - [96mAttempting to delete unique utilised addy email address.[0m
+2024-06-29 05:45:00,887 - INFO - [96mSending request to addy.io-mail to delete specified alias.[0m
+2024-06-29 05:45:00,887 - INFO - [96mAlias:[0m[94m44kze6uk@anonaddy.me[0m
+2024-06-29 05:45:01,194 - INFO - [92mSuccessful API call![0m
+2024-06-29 05:45:01,195 - INFO - [92mSuccessful deleted alias 44kze6uk@anonaddy.me.[0m
+2024-06-29 05:45:01,195 - INFO - [96mCalling[0m[93m disconnect_from_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-29 05:45:01,195 - INFO - [96mAttempting to disconnect from the yahoo-mail IMAP server.[0m
+2024-06-29 05:45:01,265 - INFO - [92mSuccessfully disconnected from the IMAP server.[0m
+2024-06-29 05:45:59,766 - INFO - [96mStarting[0m[93m main.py[0m [96m python3 script ...[0m
+2024-06-29 05:45:59,766 - INFO - [96mCalling[0m[93m create_addyio_email_address.py[0m [96mservice -function[0m
+2024-06-29 05:45:59,766 - INFO - [96mAttempting to create unique new addy.io email address.[0m
+2024-06-29 05:45:59,766 - INFO - Sending request to addy.io-mail to create and fetch new alias
+2024-06-29 05:45:59,996 - INFO - [92mSuccessful API call![0m
+2024-06-29 05:45:59,996 - INFO - [96mCreated alias-email:
+2024-06-29 05:45:59,996 - INFO - Alias local_part:[0m:     [94m9dy4jgul[0m
+2024-06-29 05:45:59,997 - INFO - [96malias domain:          [0m[94manonaddy.me[0m
+2024-06-29 05:45:59,997 - INFO - [96mfull email:    [0m[94m9dy4jgul@anonaddy.me[0m
+2024-06-29 05:45:59,997 - INFO - [96munique ID:    [0m[94mcdd3ec83-6750-4b32-929f-246aae56af85[0m
+2024-06-29 05:45:59,997 - INFO - [96mCalling[0m[93m connect_to_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-29 05:45:59,997 - INFO - [96mAttempting to connect to the yahoo-mail IMAP server.[0m
+2024-06-29 05:46:00,996 - INFO - [92mSuccessfully connected to the IMAP server.[0m
+2024-06-29 05:46:00,996 - INFO - [94mConnected to the following yahoo-mail account inbox:[0m
+2024-06-29 05:46:00,996 - INFO - [95m kumain_ynoty2_verify_codes@yahoo.com[0m
+2024-06-29 05:46:00,997 - INFO - [96mReturning the mail-object for future usage.[0m
+2024-06-29 05:46:00,997 - INFO - [96mCalling[0m[93m delete_addyio_email_address.py[0m [96mservice -function[0m
+2024-06-29 05:46:00,997 - INFO - [96mAttempting to delete unique utilised addy email address.[0m
+2024-06-29 05:46:00,997 - INFO - [96mSending request to addy.io-mail to delete specified alias.[0m
+2024-06-29 05:46:00,997 - INFO - [96mAlias:[0m[94m9dy4jgul@anonaddy.me[0m
+2024-06-29 05:46:01,304 - INFO - [92mSuccessful API call![0m
+2024-06-29 05:46:01,305 - INFO - [92mSuccessful deleted alias 9dy4jgul@anonaddy.me.[0m
+2024-06-29 05:46:01,305 - INFO - [96mCalling[0m[93m disconnect_from_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-29 05:46:01,305 - INFO - [96mAttempting to disconnect from the yahoo-mail IMAP server.[0m
+2024-06-29 05:46:01,373 - INFO - [92mSuccessfully disconnected from the IMAP server.[0m
+2024-06-29 05:47:18,942 - INFO - [96mStarting[0m[93m main.py[0m [96m python3 script ...[0m
+2024-06-29 05:47:18,942 - INFO - [96mCalling[0m[93m create_addyio_email_address.py[0m [96mservice -function[0m
+2024-06-29 05:47:18,942 - INFO - [96mAttempting to create unique new addy.io email address.[0m
+2024-06-29 05:47:18,942 - INFO - Sending request to addy.io-mail to create and fetch new alias
+2024-06-29 05:47:19,178 - INFO - [92mSuccessful API call![0m
+2024-06-29 05:47:19,178 - INFO - [96mCreated alias-email:
+2024-06-29 05:47:19,178 - INFO - Alias local_part:[0m:     [94mjiu1wywd[0m
+2024-06-29 05:47:19,178 - INFO - [96malias domain:          [0m[94manonaddy.me[0m
+2024-06-29 05:47:19,178 - INFO - [96mfull email:    [0m[94mjiu1wywd@anonaddy.me[0m
+2024-06-29 05:47:19,178 - INFO - [96munique ID:    [0m[94m4ad23b0b-5b06-4bdf-aff4-39846be523f2[0m
+2024-06-29 05:47:19,179 - INFO - [96mReturning the mail-address and ID for future usage.[0m
+2024-06-29 05:47:19,179 - INFO - [96mCalling[0m[93m connect_to_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-29 05:47:19,179 - INFO - [96mAttempting to connect to the yahoo-mail IMAP server.[0m
+2024-06-29 05:47:20,153 - INFO - [92mSuccessfully connected to the IMAP server.[0m
+2024-06-29 05:47:20,153 - INFO - [94mConnected to the following yahoo-mail account inbox:[0m
+2024-06-29 05:47:20,153 - INFO - [95m kumain_ynoty2_verify_codes@yahoo.com[0m
+2024-06-29 05:47:20,153 - INFO - [96mReturning the mail-object for future usage.[0m
+2024-06-29 05:47:20,153 - INFO - [96mCalling[0m[93m delete_addyio_email_address.py[0m [96mservice -function[0m
+2024-06-29 05:47:20,154 - INFO - [96mAttempting to delete unique utilised addy email address.[0m
+2024-06-29 05:47:20,154 - INFO - [96mSending request to addy.io-mail to delete specified alias.[0m
+2024-06-29 05:47:20,154 - INFO - [96mAlias:[0m[94mjiu1wywd@anonaddy.me[0m
+2024-06-29 05:47:20,461 - INFO - [92mSuccessful API call![0m
+2024-06-29 05:47:20,461 - INFO - [92mSuccessful deleted alias jiu1wywd@anonaddy.me.[0m
+2024-06-29 05:47:20,461 - INFO - [96mCalling[0m[93m disconnect_from_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-29 05:47:20,461 - INFO - [96mAttempting to disconnect from the yahoo-mail IMAP server.[0m
+2024-06-29 05:47:20,531 - INFO - [92mSuccessfully disconnected from the IMAP server.[0m
+2024-06-29 05:56:02,059 - INFO - [96mStarting[0m[93m main.py[0m [96m python3 script ...[0m
+2024-06-29 05:56:02,059 - INFO - [96mCalling[0m[93m create_addyio_email_address.py[0m [96mservice -function[0m
+2024-06-29 05:56:02,059 - INFO - [96mAttempting to create unique new addy.io email address.[0m
+2024-06-29 05:56:02,059 - INFO - Sending request to addy.io-mail to create and fetch new alias
+2024-06-29 05:56:02,401 - INFO - [92mSuccessful API call![0m
+2024-06-29 05:56:02,401 - INFO - [96mCreated alias-email:
+2024-06-29 05:56:02,402 - INFO - Alias local_part:[0m:     [95mbezkl7pq[0m
+2024-06-29 05:56:02,402 - INFO - [96malias domain:          [0m[95manonaddy.me[0m
+2024-06-29 05:56:02,402 - INFO - [96mfull email:    [0m[95mbezkl7pq@anonaddy.me[0m
+2024-06-29 05:56:02,402 - INFO - [96munique ID:    [0m[95mff7d0435-8d21-49a3-93e4-0394ec57f4a7[0m
+2024-06-29 05:56:02,402 - INFO - [96mReturning the mail-address and ID for future usage.[0m
+2024-06-29 05:56:02,402 - INFO - [96mCalling[0m[93m connect_to_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-29 05:56:02,402 - INFO - [96mAttempting to connect to the yahoo-mail IMAP server.[0m
+2024-06-29 05:56:03,425 - INFO - [92mSuccessfully connected to the IMAP server.[0m
+2024-06-29 05:56:03,425 - INFO - [94mConnected to the following yahoo-mail account inbox:[0m
+2024-06-29 05:56:03,425 - INFO - [95m kumain_ynoty2_verify_codes@yahoo.com[0m
+2024-06-29 05:56:03,425 - INFO - [96mReturning the mail-object for future usage.[0m
+2024-06-29 05:56:03,425 - INFO - [96mCalling[0m[93m fetch_recent_email_from_folder.py[0m [96mservice -function[0m
+2024-06-29 05:56:03,426 - INFO - [96mAttempting to select the folder: [0m[94minbox[0m
+2024-06-29 05:56:04,449 - INFO - [92mSuccessfully selected the inbox folder.[0m
+2024-06-29 05:56:04,449 - INFO - [96mAttempting to fetching the last [0m[95m20[0m[96m emails from the inbox folder.[0m
+2024-06-29 05:56:04,488 - INFO - [96mCurrently fetching recent email number:[0m[95m20[0m 
+2024-06-29 05:56:05,064 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:56:05,064 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <z6g92m0w+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:05,064 - INFO - [96mEmail Date: [0m[94mThu, 27 Jun 2024 00:58:17 +0000[0m
+2024-06-29 05:56:05,064 - INFO - [96mCurrently fetching recent email number:[0m[95m19[0m 
+2024-06-29 05:56:05,678 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:56:05,678 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <rf510cvd+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:05,678 - INFO - [96mEmail Date: [0m[94mThu, 27 Jun 2024 01:01:18 +0000[0m
+2024-06-29 05:56:05,678 - INFO - [96mCurrently fetching recent email number:[0m[95m18[0m 
+2024-06-29 05:56:06,190 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber Eats![0m
+2024-06-29 05:56:06,190 - INFO - [96mEmail From: [0m[94m"Uber Eats 'ubereats at uber.com'"
+ <rf510cvd+ubereats=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:06,190 - INFO - [96mEmail Date: [0m[94mThu, 27 Jun 2024 14:20:32 +0000[0m
+2024-06-29 05:56:06,190 - INFO - [96mCurrently fetching recent email number:[0m[95m17[0m 
+2024-06-29 05:56:06,708 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber Eats![0m
+2024-06-29 05:56:06,708 - INFO - [96mEmail From: [0m[94m"Uber Eats 'ubereats at uber.com'"
+ <z6g92m0w+ubereats=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:06,708 - INFO - [96mEmail Date: [0m[94mThu, 27 Jun 2024 14:26:45 +0000[0m
+2024-06-29 05:56:06,708 - INFO - [96mCurrently fetching recent email number:[0m[95m16[0m 
+2024-06-29 05:56:07,214 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:56:07,214 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <rqtzcc2d+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:07,214 - INFO - [96mEmail Date: [0m[94mThu, 27 Jun 2024 21:10:45 +0000[0m
+2024-06-29 05:56:07,214 - INFO - [96mCurrently fetching recent email number:[0m[95m15[0m 
+2024-06-29 05:56:07,726 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:56:07,726 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <2x775u7r+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:07,726 - INFO - [96mEmail Date: [0m[94mThu, 27 Jun 2024 21:14:20 +0000[0m
+2024-06-29 05:56:07,726 - INFO - [96mCurrently fetching recent email number:[0m[95m14[0m 
+2024-06-29 05:56:08,341 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:56:08,341 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <13c5h1ax+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:08,341 - INFO - [96mEmail Date: [0m[94mThu, 27 Jun 2024 21:19:28 +0000[0m
+2024-06-29 05:56:08,342 - INFO - [96mCurrently fetching recent email number:[0m[95m13[0m 
+2024-06-29 05:56:08,955 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:56:08,955 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <qwf3axt4+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:08,955 - INFO - [96mEmail Date: [0m[94mThu, 27 Jun 2024 21:21:02 +0000[0m
+2024-06-29 05:56:08,955 - INFO - [96mCurrently fetching recent email number:[0m[95m12[0m 
+2024-06-29 05:56:09,467 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:56:09,467 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <ze8j6fgu+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:09,471 - INFO - [96mEmail Date: [0m[94mThu, 27 Jun 2024 21:42:01 +0000[0m
+2024-06-29 05:56:09,471 - INFO - [96mCurrently fetching recent email number:[0m[95m11[0m 
+2024-06-29 05:56:10,081 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:56:10,081 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <ze8j6fgu+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:10,081 - INFO - [96mEmail Date: [0m[94mThu, 27 Jun 2024 21:43:03 +0000[0m
+2024-06-29 05:56:10,082 - INFO - [96mCurrently fetching recent email number:[0m[95m10[0m 
+2024-06-29 05:56:10,593 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:56:10,593 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <rg0z23it+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:10,593 - INFO - [96mEmail Date: [0m[94mFri, 28 Jun 2024 02:40:02 +0000[0m
+2024-06-29 05:56:10,594 - INFO - [96mCurrently fetching recent email number:[0m[95m9[0m 
+2024-06-29 05:56:11,105 - INFO - [96mEmail Subject: [0m[94mVerify your Uber account email address[0m
+2024-06-29 05:56:11,105 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <jp177z6p+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:11,105 - INFO - [96mEmail Date: [0m[94mFri, 28 Jun 2024 21:20:40 +0000[0m
+2024-06-29 05:56:11,106 - INFO - [96mCurrently fetching recent email number:[0m[95m8[0m 
+2024-06-29 05:56:11,617 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:56:11,617 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <olfvtoge+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:11,617 - INFO - [96mEmail Date: [0m[94mFri, 28 Jun 2024 21:25:33 +0000[0m
+2024-06-29 05:56:11,617 - INFO - [96mCurrently fetching recent email number:[0m[95m7[0m 
+2024-06-29 05:56:12,129 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:56:12,129 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <07t5u0fw+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:12,129 - INFO - [96mEmail Date: [0m[94mFri, 28 Jun 2024 21:32:36 +0000[0m
+2024-06-29 05:56:12,130 - INFO - [96mCurrently fetching recent email number:[0m[95m6[0m 
+2024-06-29 05:56:12,647 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:56:12,647 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <x4wbfn6g+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:12,647 - INFO - [96mEmail Date: [0m[94mFri, 28 Jun 2024 21:44:18 +0000[0m
+2024-06-29 05:56:12,647 - INFO - [96mCurrently fetching recent email number:[0m[95m5[0m 
+2024-06-29 05:56:13,256 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:56:13,256 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <m89rt4u2+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:13,256 - INFO - [96mEmail Date: [0m[94mFri, 28 Jun 2024 21:45:45 +0000[0m
+2024-06-29 05:56:13,256 - INFO - [96mCurrently fetching recent email number:[0m[95m4[0m 
+2024-06-29 05:56:13,768 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:56:13,768 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <8lel3x08+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:13,768 - INFO - [96mEmail Date: [0m[94mFri, 28 Jun 2024 22:33:19 +0000[0m
+2024-06-29 05:56:13,768 - INFO - [96mCurrently fetching recent email number:[0m[95m3[0m 
+2024-06-29 05:56:14,383 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:56:14,383 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <z2usjnqe+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:14,383 - INFO - [96mEmail Date: [0m[94mFri, 28 Jun 2024 22:38:15 +0000[0m
+2024-06-29 05:56:14,383 - INFO - [96mCurrently fetching recent email number:[0m[95m2[0m 
+2024-06-29 05:56:14,894 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:56:14,894 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <kv6n6dxg+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:14,894 - INFO - [96mEmail Date: [0m[94mSat, 29 Jun 2024 02:50:28 +0000[0m
+2024-06-29 05:56:14,894 - INFO - [96mCurrently fetching recent email number:[0m[95m1[0m 
+2024-06-29 05:56:15,406 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber[0m
+2024-06-29 05:56:15,406 - INFO - [96mEmail From: [0m[94m"Uber 'admin at uber.com'" <cne7iddp+admin=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:15,406 - INFO - [96mEmail Date: [0m[94mSat, 29 Jun 2024 03:04:51 +0000[0m
+2024-06-29 05:56:15,406 - INFO - [92mSuccessfully fetched all emails from folder inbox, and added data to dictionary.[0m
+2024-06-29 05:56:15,406 - INFO - [96mFollowing example data contained within dictionary:[0m
+2024-06-29 05:56:15,406 - INFO - [96mReturning dictionary variable.[0m
+2024-06-29 05:56:17,409 - INFO - [96mCalling[0m[93m fetch_recent_email_from_folder.py[0m [96mservice -function[0m
+2024-06-29 05:56:17,409 - INFO - [96mAttempting to select the folder: [0m[94mBulk[0m
+2024-06-29 05:56:18,376 - INFO - [92mSuccessfully selected the Bulk folder.[0m
+2024-06-29 05:56:18,376 - INFO - [96mAttempting to fetching the last [0m[95m20[0m[96m emails from the Bulk folder.[0m
+2024-06-29 05:56:18,376 - INFO - [96mCurrently fetching recent email number:[0m[95m20[0m 
+2024-06-29 05:56:18,888 - INFO - [96mEmail Subject: [0m[94mThanks for exploring TestGrid[0m
+2024-06-29 05:56:18,888 - INFO - [96mEmail From: [0m[94m"DJ 'damanjeet=testgrid.cloud at bf08x.hs-send.com'"
+ <8d91v4ek+damanjeet=testgrid.cloud@anonaddy.me>[0m
+2024-06-29 05:56:18,888 - INFO - [96mEmail Date: [0m[94mMon, 10 Jun 2024 01:59:36 +0000[0m
+2024-06-29 05:56:18,888 - INFO - [96mCurrently fetching recent email number:[0m[95m19[0m 
+2024-06-29 05:56:19,504 - INFO - [96mEmail Subject: [0m[94mWelcome to Uber Eats![0m
+2024-06-29 05:56:19,504 - INFO - [96mEmail From: [0m[94m"Uber Eats 'ubereats at uber.com'"
+ <63glf2ow+ubereats=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:19,505 - INFO - [96mEmail Date: [0m[94mThu, 27 Jun 2024 14:22:42 +0000[0m
+2024-06-29 05:56:19,505 - INFO - [96mCurrently fetching recent email number:[0m[95m18[0m 
+2024-06-29 05:56:20,116 - INFO - [96mEmail Subject: [0m[94mtest is the email domain rg0z23it ?[0m
+2024-06-29 05:56:20,117 - INFO - [96mEmail From: [0m[94m"Kumain Ynot 'kumain_ynoty2_verify_codes at yahoo.com'"
+ <rg0z23it+kumain_ynoty2_verify_codes=yahoo.com@anonaddy.me>[0m
+2024-06-29 05:56:20,136 - INFO - [96mEmail Date: [0m[94mFri, 28 Jun 2024 02:41:16 +0000[0m
+2024-06-29 05:56:20,136 - INFO - [96mCurrently fetching recent email number:[0m[95m17[0m 
+2024-06-29 05:56:20,730 - INFO - [96mEmail Subject: [0m[94mYour request to delete your account was successful[0m
+2024-06-29 05:56:20,730 - INFO - [96mEmail From: [0m[94m"no-reply at uber.com" <ze8j6fgu+no-reply=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:20,731 - INFO - [96mEmail Date: [0m[94mFri, 28 Jun 2024 21:16:35 +0000[0m
+2024-06-29 05:56:20,731 - INFO - [96mCurrently fetching recent email number:[0m[95m16[0m 
+2024-06-29 05:56:21,346 - INFO - [96mEmail Subject: [0m[94mWelcome back to the Uber community[0m
+2024-06-29 05:56:21,346 - INFO - [96mEmail From: [0m[94m"no-reply at uber.com" <ze8j6fgu+no-reply=uber.com@anonaddy.me>[0m
+2024-06-29 05:56:21,346 - INFO - [96mEmail Date: [0m[94mFri, 28 Jun 2024 21:17:10 +0000[0m
+2024-06-29 05:56:21,346 - INFO - [92mSuccessfully fetched all emails from folder Bulk, and added data to dictionary.[0m
+2024-06-29 05:56:21,346 - INFO - [96mFollowing example data contained within dictionary:[0m
+2024-06-29 05:56:21,346 - INFO - [96mReturning dictionary variable.[0m
+2024-06-29 05:56:23,404 - INFO - [96mCalling[0m[93m delete_addyio_email_address.py[0m [96mservice -function[0m
+2024-06-29 05:56:23,404 - INFO - [96mAttempting to delete unique utilised addy email address.[0m
+2024-06-29 05:56:23,404 - INFO - [96mSending request to addy.io-mail to delete specified alias.[0m
+2024-06-29 05:56:23,404 - INFO - [96mAlias:[0m[95mbezkl7pq@anonaddy.me[0m
+2024-06-29 05:56:23,701 - INFO - [92mSuccessful API call![0m
+2024-06-29 05:56:23,701 - INFO - [92mSuccessful deleted alias bezkl7pq@anonaddy.me.[0m
+2024-06-29 05:56:23,701 - INFO - [96mCalling[0m[93m disconnect_from_yahoo_imap_server.py[0m [96mservice -function[0m
+2024-06-29 05:56:23,701 - INFO - [96mAttempting to disconnect from the yahoo-mail IMAP server.[0m
+2024-06-29 05:56:23,769 - INFO - [92mSuccessfully disconnected from the IMAP server.[0m

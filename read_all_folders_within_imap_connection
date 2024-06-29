@@ -1,0 +1,4 @@
+status, folder_list = mail.list()
+        if status == 'OK':
+            for folder_info in folder_list:
+                print(folder_info)

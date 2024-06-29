@@ -72,6 +72,7 @@ def fetch_recent_emails_from_folder(mail, folder, num_emails):
                 f"{Colors.END}")
     print("")
     logger.info(f"{Colors.CYAN}Returning dictionary variable.{Colors.END}")
+    print("")
     return emails_data
 
 if __name__ == "__main__":

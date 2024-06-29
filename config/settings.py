@@ -9,3 +9,7 @@ APP_PASSWORD = os.getenv("APP_PASSWORD", "vcmqtlrrdteprcec")
 # Define the Yahoo IMAP server and port
 IMAP_SERVER = os.getenv("IMAP_SERVER", "imap.mail.yahoo.com")
 IMAP_PORT = os.getenv("IMAP_PORT", 993)
+
+# I am using addyio to read verification codes fowarded to above yahoo account :D
+# Addyio email API
+ADDYIO_API_TOKEN = os.getenv("ADDYIO_API_TOKEN", "addy_io_cEHFa0ySNsGJinMlnSlZLVI1jp7vtrVhGYrGDCYV9c8be69e")
