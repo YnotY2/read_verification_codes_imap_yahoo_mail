@@ -21,31 +21,30 @@ from utils.logger import setup_logger
 logger = setup_logger(service_name="find_email_by_subject_and_addyio_mail_sender")
 
 
-def find_email_by_subject_and_addyio_mail_sender(emails_data, subjects_to_extract):
-    logger.info(f"{Colors.CYAN}Attempting to extract all emails with specified subjects: {Colors.END}{Colors.BLUE}{subjects_to_extract}{Colors.END}")
-    emails_specified_subject_data = []
+def find_email_by_subject_and_addyio_mail_sender(emails_data, addy_email_address):
+    logger.info(f"{Colors.CYAN}Attempting to extract email('s) with specified addyio address.{Colors.END}")
+    logger.info(f"{Colors.CYAN}Addyio email:    {Colors.END}{Colors.MAGENTA}{addy_email_address}{Colors.END}")
+
+    matched_incoming_addyio_email = []
+
+    # Create the string to search for within email
+    # cut @anonaddy.me from addy_email_address
+    local_addyio_part = addy_email_address.split('@')[0]
+    addyio_match = f"{local_addyio_part}+admin=uber.com@anonaddy.me>"
 
     try:
         for email in emails_data:
-            if email['subject'].lower() in [subject.lower() for subject in subjects_to_extract]:
-                emails_specified_subject_data.append(email)
+            if addyio_match in email['from']:       # We find the match in the from email field
+                logger.info(f"Successfully found incoming email matching recently used addyio-email address. ")
+                matched_incoming_addyio_email.append(email)
 
     except Exception as e:
         logger.error(f"Error: {e}")
 
-    logger.info(f"{Colors.GREEN}Successfully extracted all emails with specified subject '{subjects_to_extract}' and added data to dictionary 'emails_specified_subject_data'.{Colors.END}")
-    logger.info(f"{Colors.CYAN}Example data contained within dictionary:{Colors.END}")
-    logger.info(f"{Colors.BLUE}"
-                f"{{\n"
-                f"    'subject': '{random.choice(subjects_to_extract)}',\n"
-                f"    'from': 'sender@example.com',\n"
-                f"    'date': 'Thu, 01 Jan 1970 00:00:00 +0000',\n"
-                f"    'content': 'Example content because actual content is way too long.'\n"
-                f"}}\n"
-                f"{Colors.END}")
-
+    logger.info(f"{Colors.GREEN}Successfully extracted all emails with specified addyio address and added data to list 'emails_specified_subject_data'.{Colors.END}")
     logger.info(f"{Colors.CYAN}Returning matched email data.{Colors.END}")
-    return emails_specified_subject_data
+    print("")
+    return matched_incoming_addyio_email
 
 if __name__ == "__main__":
     find_email_by_subject_and_addyio_mail_sender()

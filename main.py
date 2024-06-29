@@ -13,6 +13,8 @@ from services_python.connect_to_yahoo_imap_server import connect_to_yahoo_imap_s
 from services_python.disconnect_from_yahoo_imap_server import disconnect_from_yahoo_imap_server
 from services_python.fetch_recent_emails_from_folder import fetch_recent_emails_from_folder
 from services_python.extract_all_emails_with_specified_subject import extract_all_emails_with_specified_subject
+from services_python.find_email_by_subject_and_addyio_mail_sender import find_email_by_subject_and_addyio_mail_sender
+from services_python.extract_verification_code_from_matched_email import extract_verification_code_from_matched_email
 
 # Setup logger with service name
 service_name = "main"
@@ -23,8 +25,8 @@ def main():
 
         logger.info(f"{Colors.CYAN}Starting{Colors.END}{Colors.YELLOW} main.py{Colors.END} {Colors.CYAN} python3 script ...{Colors.END}")
 
-        logger.info(f"{Colors.CYAN}Calling{Colors.END}{Colors.YELLOW} create_addyio_email_address.py{Colors.END} {Colors.CYAN}service -function{Colors.END}")
-        addy_email_address, id = create_addyio_email_address()
+        #logger.info(f"{Colors.CYAN}Calling{Colors.END}{Colors.YELLOW} create_addyio_email_address.py{Colors.END} {Colors.CYAN}service -function{Colors.END}")
+        #addy_email_address, id = create_addyio_email_address()
 
         logger.info(f"{Colors.CYAN}Calling{Colors.END}{Colors.YELLOW} connect_to_yahoo_imap_server.py{Colors.END} {Colors.CYAN}service -function{Colors.END}")
         mail = connect_to_yahoo_imap_server()       # We return a mail object used as a cursor for navigating IMAP protocol cmds. Kinda like db object cursor
@@ -46,10 +48,19 @@ def main():
         logger.info(f"{Colors.CYAN}Calling{Colors.END}{Colors.YELLOW} extract_all_emails_with_specified_subject.py{Colors.END} {Colors.CYAN}service -function{Colors.END}")
         subjects_to_extract = ['Welcome to Uber Eats!', 'Welcome to Uber']
         emails_specified_subject_data = extract_all_emails_with_specified_subject(emails_data, subjects_to_extract)
-        print(emails_specified_subject_data)
+        #print(emails_specified_subject_data)
 
-        logger.info(f"{Colors.CYAN}Calling{Colors.END}{Colors.YELLOW} delete_addyio_email_address.py{Colors.END} {Colors.CYAN}service -function{Colors.END}")
-        delete_addyio_email_address(addy_email_address, id)
+        #logger.info(f"{Colors.CYAN}Calling{Colors.END}{Colors.YELLOW} delete_addyio_email_address.py{Colors.END} {Colors.CYAN}service -function{Colors.END}")
+        #delete_addyio_email_address(addy_email_address, id)
+
+        addy_email_address = "fm5k64rg@anonaddy.me"
+        logger.info(f"{Colors.CYAN}Calling{Colors.END}{Colors.YELLOW} find_email_by_subject_and_addyio_mail_sender.py{Colors.END} {Colors.CYAN}service -function{Colors.END}")
+        matched_incoming_addyio_email = find_email_by_subject_and_addyio_mail_sender(emails_data, addy_email_address)
+        #print (matched_incoming_addyio_email)
+
+        logger.info(f"{Colors.CYAN}Calling{Colors.END}{Colors.YELLOW} extract_verification_code_from_matched_email.py{Colors.END} {Colors.CYAN}service -function{Colors.END}")
+        verification_code = extract_verification_code_from_matched_email(matched_incoming_addyio_email)
+
 
         logger.info(f"{Colors.CYAN}Calling{Colors.END}{Colors.YELLOW} disconnect_from_yahoo_imap_server.py{Colors.END} {Colors.CYAN}service -function{Colors.END}")
         disconnect_from_yahoo_imap_server(mail)
