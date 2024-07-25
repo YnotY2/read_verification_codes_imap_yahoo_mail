@@ -11,9 +11,8 @@
 7. [Installation](#installation)
 8. [Update Code Usage for a Different Service](#update-code-usage-for-a-different-service)
    - [Update the Credentials if Needed](#update-the-credentials-if-needed)
-   - [Modify Variables in `main.py`](#modify-variables-in-mainpy)
-   - [Modify Python Service Logic](#modify-python-service-logic)
-9. [Read the `main.py` Code File for Actual Logic](#read-the-mainpy-code-file-for-actual-logic)
+   - [Modify Variables in `main.py`](#modify-the-following-variables-within-mainpy)
+   - [Modify Python Service Logic](#modify-the-following-python-service-logic)
 
 
 # Introduction
