@@ -122,12 +122,12 @@ a verification code from. First manually sign up and confirm you can find the em
 **Sender-Domain**
 This is the sender domain from within the email corresponding to addyio address used for service. 
 For example for uber-service this is the sender domain.
--sender_domain = "+admin=uber.com@anonaddy.me"
+- sender_domain = "+admin=uber.com@anonaddy.me"
 
 **Subjects-To-Extract**
 This is the subject of the email, this can be multiple subjects. 
 For example this is the subject for uber-eats.
--subjects_to_extract = ['Welcome to Uber Eats!', 'Welcome to Uber']
+- subjects_to_extract = ['Welcome to Uber Eats!', 'Welcome to Uber']
 
 ## Modify the following python service logic:
 ```ssh
