@@ -137,6 +137,26 @@ For example this is the subject for uber-eats.
 ```sh
 extract_verification_code_from_matched_email.py
 ```
+
+```
+# Find all <p> tags containing "Verification code:"
+                p_tags = soup.find_all('p', text=re.compile(r'Verification code:', re.IGNORECASE))
+
+                for p_tag in p_tags:
+                    # Find the next <p> tag which contains the verification code
+                    next_p = p_tag.find_next('p')
+                    if next_p:
+                        # Extract the verification code using regex
+                        match = re.search(r'\b(\d{4})\b', str(next_p))
+                        if match:
+                            verification_code = match.group(1)
+                            break  # Stop processing if verification code is found
+
+                    # If verification code is found, break out of the loop
+                    if verification_code:
+                        logger.info(f"{Colors.GREEN}Successfully found the verification code!{Colors.END}")
+                        break
+```
 - Here you need to modify the actual logic of the code to correctly parse the content tag of the email. And extract the verification code using custom logic. 
 
 ### Read the main.py code file for the actuall logic. 
