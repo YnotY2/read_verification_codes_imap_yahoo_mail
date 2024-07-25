@@ -14,7 +14,7 @@
    - [Modify Variables in `main.py`](#modify-the-following-variables-within-mainpy)
    - [Modify Python Service Logic](#modify-the-following-python-service-logic)
 
-[Running Code ](https://youtu.be/lMpgif0PDiA)
+[Running Code](https://youtu.be/lMpgif0PDiA)
 
 # Introduction
 This code is a template designed to easily read incoming emails from a specified Yahoo Mail account using simple credentials:
