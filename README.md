@@ -3,8 +3,6 @@
 
 1. [Introduction](#introduction)
 2. [This Approach is Entirely Free](#this-approach-is-entirely-free)
-   - [Yahoo Mail](#yahoo-mail)
-   - [Addyio Email](#addyio-email)
 3. [Features](#features)
 4. [How to Use](#how-to-use)
    - [Steps](#steps)
@@ -40,7 +38,7 @@ I am using addyio emails to fowared all incoming email to the specified yahoo ma
 
 ## Features
 - Check for emails containing the verification code from both the **inbox** and **spam** folders.
-- Identify if the body of the 20 most recent emails contains the subject (using regular expressions) from the promotion company/service you are targeting. And extract these specified emails.
+- Identify if the body of the 10 most recent emails contains the subject (using regular expressions) from the promotion company/service you are targeting. And extract these specified emails.
 - Identify if either of these recent email's with specified subject contains the unique addy.io email address used to sign-up for service. And extract this/these unique emails. 
 - Extract the verification code from the email with specified subject and addy.io mail address using a custom regular expression pattern.
 
@@ -63,7 +61,7 @@ Here's a basic outline of what the code does:
 1. Create account for specifed service using freshly created unique addy.io email address.
 
 2. Connect to Yahoo Mail using IMAP.
-3. Search for 20 most recent emails in the inbox and spam folders.
+3. Search for 10 most recent emails in the inbox and spam folders. [can modify variable value]
 4. Use regular expressions to find emails containing specific subject within emails. Then return all emails found.
 5. Use regular expression to find addy.io email address specified within email content. Then return all emails found. (usually only one)
 6. Extract the verification code using another regular expression pattern. (if multiple emails found, fetch code from most recent email)
@@ -77,6 +75,16 @@ Here's a basic outline of what the code does:
 1. Clone this repo:
 ```sh
 https://github.com/YnotY2/read_verification_codes_imap_yahoo_mail.git
+```
+
+2. Install requirements:
+```
+pip install -r requirements.txt
+```
+
+3. Run grant permissions:
+```
+sudo python3 grant_permissions.py
 ```
 
 # Update code usage for a different service:
