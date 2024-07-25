@@ -85,6 +85,18 @@ IMAP_PORT = os.getenv("IMAP_PORT", 993)
 # Addyio email API
 ADDYIO_API_TOKEN = os.getenv("ADDYIO_API_TOKEN", "YOUR_ADDYIO_API_KEY_HERE")
 ```
+## Modify the following variables within 'main.py':
+
+-**Test-Addyio-Address**
+This is the addy.io address which you used to sign up for the service you wish to receive 
+a verification code from. First manually sign up and confirm you can find the email-address using code.
+
+  - addy_email_address = "vkm7565m@anonaddy.me"
+
+    
+-**Sender-Domain**
+  -sender_domain = "+admin=uber.com@anonaddy.me"
+
 
 ## Modify the following python services
 ```ssh
