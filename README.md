@@ -14,7 +14,7 @@
    - [Modify Variables in `main.py`](#modify-the-following-variables-within-mainpy)
    - [Modify Python Service Logic](#modify-the-following-python-service-logic)
 
-[Running Code](read_verif_code_logo.png)
+[![Running Code](read_verif_code_logo.png)]
 
 
 # Introduction
