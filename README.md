@@ -1,4 +1,24 @@
 # Fetch verification Codes from incoming yahoo emails using IMAP Protocol
+# Index
+
+1. [Introduction](#introduction)
+2. [This Approach is Entirely Free](#this-approach-is-entirely-free)
+   - [Yahoo Mail](#yahoo-mail)
+   - [Addyio Email](#addyio-email)
+3. [Features](#features)
+4. [How to Use](#how-to-use)
+   - [Steps](#steps)
+5. [Example](#example)
+6. [Requirements](#requirements)
+7. [Installation](#installation)
+8. [Update Code Usage for a Different Service](#update-code-usage-for-a-different-service)
+   - [Update the Credentials if Needed](#update-the-credentials-if-needed)
+   - [Modify Variables in `main.py`](#modify-variables-in-mainpy)
+   - [Modify Python Service Logic](#modify-python-service-logic)
+9. [Read the `main.py` Code File for Actual Logic](#read-the-mainpy-code-file-for-actual-logic)
+
+
+# Introduction
 This code is a template designed to easily read incoming emails from a specified Yahoo Mail account using simple credentials:
 
 - **App Password Yahoo**
@@ -87,26 +107,25 @@ ADDYIO_API_TOKEN = os.getenv("ADDYIO_API_TOKEN", "YOUR_ADDYIO_API_KEY_HERE")
 ```
 ## Modify the following variables within 'main.py':
 
--**Test-Addyio-Address**
+**Test-Addyio-Address**
 This is the addy.io address which you used to sign up for the service you wish to receive 
 a verification code from. First manually sign up and confirm you can find the email-address using code.
+- addy_email_address = "vkm7565m@anonaddy.me"
 
-  - addy_email_address = "vkm7565m@anonaddy.me"
+**Sender-Domain**
+This is the sender domain from within the email corresponding to addyio address used for service. 
+For example for uber-service this is the sender domain.
+-sender_domain = "+admin=uber.com@anonaddy.me"
 
-    
--**Sender-Domain**
-  -sender_domain = "+admin=uber.com@anonaddy.me"
+**Subjects-To-Extract**
+This is the subject of the email, this can be multiple subjects. 
+For example this is the subject for uber-eats.
+-subjects_to_extract = ['Welcome to Uber Eats!', 'Welcome to Uber']
 
-
-## Modify the following python services
+## Modify the following python service logic:
 ```ssh
 ./read_verification_codes_imap_yahoo_mail/services_python
 ```
-
-```sh
-extract_all_emails_with_specified_subject.py
-```
-- Here you only need to modify the actually subject value's passed to the function, we are searching for. No code modification needed. 
 
 ```sh
 extract_verification_code_from_matched_email.py
